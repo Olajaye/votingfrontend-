@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import io, { Socket } from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
-import { RoomType, Option } from "../types";
+import { RoomType } from "../types";
 import Countdown from "react-countdown";
 import { API_BASE_URL, AuthContext } from "../Context/AuthContext"; // Assuming you have an auth context
 import { ToastContainer, toast } from "react-toastify";
